@@ -1,0 +1,81 @@
+body {
+    font-family: Verdana, sans serif;
+}
+
+
+.mainImage {
+    width: 300px;
+    margin: 25px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.textFormat {
+    color: white;
+    margin: 25px;
+    font-weight: bold;
+}
+
+h3 {
+    color: black;
+    margin: 25px;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.whiteBoldSpan {
+    font-weight: bold;
+    color: white;
+}
+
+.whiteColorText{
+    color: white;
+}
+
+.removeBullets {
+    list-style-type: none;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.cardDiv {
+    text-align: center;
+    margin: 25px;
+}
+
+.outerDiv {
+    background-image: url("https://static.pexels.com/photos/5049/forest-trees-fog-foggy.jpg");
+    border-radius: 25px;
+    border-style: solid;
+    border-width: thin;
+    border-color: gray;
+    width: 350px;
+    box-shadow: 20px 5px 10px gray;
+}
+
+.innerDiv {
+    border-radius: 25px;
+    border-style: solid;
+    border-width: thin;
+    border-color: gray;
+    width: 300px;
+    margin: 25px;
+    box-shadow: 5px 5px 20px gray;
+}
+
+.innerDiv:hover {
+    transform: scaleY(1.5);
+    transform-origin: bottom;
+    background-color: black;
+}
+
+
+.nameBorder {
+    border-radius: 25px;
+    border-style: solid;
+    border-width: thin;
+    border-color: gray;
+    width: 250px;
+    box-shadow: 5px 5px 20px gray;
+}
